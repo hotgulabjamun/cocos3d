@@ -215,8 +215,8 @@
 			isa = PBXGroup;
 			children = (
 				B64B3D25155ECED3004C2F6F /* Cocos3D.xcodeproj */,
-				B64B3D7A155ED7EE004C2F6F /* cc3Extras */,
 				A94736C8140E58E7006F410C /* Classes */,
+				B64B3D7A155ED7EE004C2F6F /* cc3Extras */,
 				A92DA78D1427B5980051AFFA /* Resources */,
 				A94736C3140E5890006F410C /* Supporting Files */,
 				29B97323FDCFA39411CA2CEA /* Frameworks */,
