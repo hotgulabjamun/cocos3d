@@ -22,6 +22,7 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
+		B64B3D65155ED2F2004C2F6F /* Cocos3D.h in Headers */ = {isa = PBXBuildFile; fileRef = B6747D37155EB226005D8E64 /* Cocos3D.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B6747D33155EB226005D8E64 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6747D32155EB226005D8E64 /* Foundation.framework */; };
 		B6747D39155EB226005D8E64 /* Cocos3D.m in Sources */ = {isa = PBXBuildFile; fileRef = B6747D38155EB226005D8E64 /* Cocos3D.m */; };
 		B6747DFA155EB23C005D8E64 /* CC3IdentifiablePODExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = B6747D47155EB23B005D8E64 /* CC3IdentifiablePODExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -404,7 +405,6 @@
 			isa = PBXGroup;
 			children = (
 				B6747D3F155EB23B005D8E64 /* cocos3d */,
-				B6747D34155EB226005D8E64 /* Cocos3D */,
 				B6747D31155EB226005D8E64 /* Frameworks */,
 				B6747D30155EB226005D8E64 /* Products */,
 			);
@@ -428,20 +428,9 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		B6747D34155EB226005D8E64 /* Cocos3D */ = {
-			isa = PBXGroup;
-			children = (
-				B6747D37155EB226005D8E64 /* Cocos3D.h */,
-				B6747D38155EB226005D8E64 /* Cocos3D.m */,
-				B6747D35155EB226005D8E64 /* Supporting Files */,
-			);
-			path = Cocos3D;
-			sourceTree = "<group>";
-		};
 		B6747D35155EB226005D8E64 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				B6747D36155EB226005D8E64 /* Cocos3D-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -454,6 +443,10 @@
 				B6747D81155EB23B005D8E64 /* CCNodeController */,
 				B6747D86155EB23B005D8E64 /* cocos3d */,
 				B6747DEC155EB23B005D8E64 /* deprecated */,
+				B6747D37155EB226005D8E64 /* Cocos3D.h */,
+				B6747D38155EB226005D8E64 /* Cocos3D.m */,
+				B6747D36155EB226005D8E64 /* Cocos3D-Prefix.pch */,
+				B6747D35155EB226005D8E64 /* Supporting Files */,
 			);
 			path = cocos3d;
 			sourceTree = "<group>";
@@ -791,6 +784,7 @@
 				B6747E9A155EB23C005D8E64 /* CC3TargettingNode.h in Headers */,
 				B6747E9C155EB23C005D8E64 /* CC3VertexArrayMeshModel.h in Headers */,
 				B6747E9E155EB23C005D8E64 /* CC3World.h in Headers */,
+				B64B3D65155ED2F2004C2F6F /* Cocos3D.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -989,7 +983,6 @@
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -1005,7 +998,6 @@
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -1020,6 +1012,7 @@
 					"$(BUILD_ROOT)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)",
 					"$(inherited)",
 					"\"$(SRCROOT)/Vendor/Frameworks\"",
+					"\"$(SRCROOT)/../../../../Shared/bored/Products/Debug-iphoneos\"",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Cocos3D/Cocos3D-Prefix.pch";
@@ -1042,6 +1035,7 @@
 					"$(BUILD_ROOT)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)",
 					"$(inherited)",
 					"\"$(SRCROOT)/Vendor/Frameworks\"",
+					"\"$(SRCROOT)/../../../../Shared/bored/Products/Debug-iphoneos\"",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Cocos3D/Cocos3D-Prefix.pch";
