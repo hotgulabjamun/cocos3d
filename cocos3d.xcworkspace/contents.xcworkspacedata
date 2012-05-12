@@ -20,12 +20,6 @@
       location = "group:LICENSE.cocos3d">
    </FileRef>
    <FileRef
-      location = "group:LICENSE.cocos2d">
-   </FileRef>
-   <FileRef
-      location = "group:LICENSE.cocosdenshion">
-   </FileRef>
-   <FileRef
       location = "group:Cocos3D.xcodeproj">
    </FileRef>
 </Workspace>
