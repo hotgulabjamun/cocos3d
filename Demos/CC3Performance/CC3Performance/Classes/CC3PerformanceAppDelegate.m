@@ -30,10 +30,12 @@
  */
 
 #import "CC3PerformanceAppDelegate.h"
+
 #import "CC3PerformanceLayer.h"
 #import "CC3PerformanceScene.h"
-#import "CC3EAGLView.h"
-#import "CC3Scene.h"
+
+#import <Cocos3D/CC3EAGLView.h>
+#import <Cocos3D/CC3Scene.h>
 
 @implementation CC3PerformanceAppDelegate
 

@@ -31,7 +31,8 @@
 
 #import "CC3PerformanceLayer.h"
 #import "CC3PerformanceScene.h"
-#import "ccMacros.h"
+
+#import <Cocos2DKit/ccMacros.h>
 
 
 /** Parameters for setting up the joystick and button controls */

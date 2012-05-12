@@ -30,8 +30,8 @@
  */
 
 #import "HUDScene.h"
-#import "CC3Camera.h"
-#import "CC3Light.h"
+#import <Cocos3D/CC3Camera.h>
+#import <Cocos3D/CC3Light.h>
 
 #define kGlobeName		@"Globe"
 

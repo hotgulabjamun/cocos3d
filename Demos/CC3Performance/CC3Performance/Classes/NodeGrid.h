@@ -28,7 +28,7 @@
  */
 
 
-#import "CC3Node.h"
+#import <Cocos3D/CC3Node.h>
 
 
 /**

@@ -28,8 +28,8 @@
  */
 
 
-#import "cocos2d.h"
-#import "CC3Layer.h"
+#import <Cocos3D/CC3Layer.h>
+
 #import "CCNodeAdornments.h"
 
 /**

@@ -27,7 +27,7 @@
  * http://en.wikipedia.org/wiki/MIT_License
  */
 
-#import "CC3Scene.h"
+#import <Cocos3D/CC3Scene.h>
 
 /**
  * A CC3Scene that is specialized to display only a single main node, and is

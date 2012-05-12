@@ -31,10 +31,10 @@
  */
 
 
-#import "CC3Scene.h"
-#import "CC3MeshNode.h"
-#import "CC3PODLight.h"
-#import "CC3PointParticles.h"
+#import <Cocos3D/CC3Scene.h>
+#import <Cocos3D/CC3MeshNode.h>
+#import <Cocos3D/CC3PODLight.h>
+#import <Cocos3D/CC3PointParticles.h>
 
 @class SpinningNode, PhysicsMeshNode, DoorMeshNode;
 

@@ -30,7 +30,7 @@
  */
 
 #import "NodeGrid.h"
-#import "CC3IOSExtensions.h"
+#import <Cocos3D/CC3IOSExtensions.h>
 
 
 @implementation NodeGrid

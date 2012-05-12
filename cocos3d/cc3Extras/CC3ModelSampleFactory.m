@@ -29,6 +29,9 @@
  * See header file CC3ModelSampleFactory.h for full API documentation.
  */
 
+#import <Cocos3D/CC3VertexArrayMesh.h>
+#import <Cocos3D/CC3MeshNode.h>
+
 #import "CC3ModelSampleFactory.h"
 #import "teapot.h"
 

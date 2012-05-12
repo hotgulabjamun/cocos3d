@@ -34,9 +34,9 @@
 #import "MainLayer.h"
 #import "TileLayer.h"
 #import "TileScene.h"
-#import "CC3PODResourceNode.h"
-#import "CC3ParametricMeshNodes.h"
-#import "CC3IOSExtensions.h"
+#import <Cocos3D/CC3PODResourceNode.h>
+#import <Cocos3D/CC3ParametricMeshNodes.h>
+#import <Cocos3D/CC3IOSExtensions.h>
 
 // Model names
 #define kBoxName				@"Box"

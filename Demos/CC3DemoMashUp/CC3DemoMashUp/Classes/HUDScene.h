@@ -28,7 +28,7 @@
  */
 
 
-#import "CC3Scene.h"
+#import <Cocos3D/CC3Scene.h>
 
 /**
  * A sample application-specific CC3Scene subclass that is specialized to

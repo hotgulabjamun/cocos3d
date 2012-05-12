@@ -34,7 +34,7 @@
 /** @file */	// Doxygen marker
 
 #import <Foundation/Foundation.h>
-#import "cocos2d.h"
+
 
 /** Specifies a 2D position using an angular coordinate axes. */
 typedef struct {

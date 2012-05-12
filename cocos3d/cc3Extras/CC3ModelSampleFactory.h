@@ -28,9 +28,9 @@
  */
 
 
-#import "CC3VertexArrayMesh.h"
-#import "CC3MeshNode.h"
 
+@class CC3VertexLocations, CC3VertexNormals, CC3VertexIndices, CC3VertexArrayMesh, CC3MeshNode;
+@class CC3VertexTextureCoordinates, CC3VertexColors;
 
 /**
  * CC3ModelSampleFactory is a convenience utility for creating sample 3D models

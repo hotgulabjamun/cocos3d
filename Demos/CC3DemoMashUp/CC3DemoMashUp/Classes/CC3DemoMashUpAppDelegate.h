@@ -28,8 +28,8 @@
  */
 
 #import <UIKit/UIKit.h>
-#import "CCNodeController.h"
-#import "CC3Scene.h"
+
+@class CCNodeController;
 
 @interface CC3DemoMashUpAppDelegate : NSObject <UIApplicationDelegate> {
 	UIWindow* window;

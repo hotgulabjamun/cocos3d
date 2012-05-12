@@ -31,12 +31,14 @@
 
 #import "CC3DemoMashUpLayer.h"
 #import "CC3DemoMashUpScene.h"
-#import "CC3ActionInterval.h"
-#import "CC3CC2Extensions.h"
-#import "CC3IOSExtensions.h"
 #import "HUDLayer.h"
 #import "HUDScene.h"
-#import "ccMacros.h"
+
+#import <Cocos3D/CC3ActionInterval.h>
+#import <Cocos3D/CC3CC2Extensions.h>
+#import <Cocos3D/CC3IOSExtensions.h>
+
+#import <Cocos2DKit/ccMacros.h>
 
 
 /** Parameters for setting up the joystick and button controls */

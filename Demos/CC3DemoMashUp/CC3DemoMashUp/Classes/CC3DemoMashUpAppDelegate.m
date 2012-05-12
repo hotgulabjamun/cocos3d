@@ -32,8 +32,12 @@
 #import "CC3DemoMashUpAppDelegate.h"
 #import "CC3DemoMashUpLayer.h"
 #import "CC3DemoMashUpScene.h"
-#import "CC3EAGLView.h"
-#import "CCAction.h"
+
+#import <Cocos3D/CC3EAGLView.h>
+#import <Cocos3D/CCNodeController.h>
+#import <Cocos3D/CC3Scene.h>
+
+#import <Cocos2DKit/CCAction.h>
 
 @implementation CC3DemoMashUpAppDelegate
 

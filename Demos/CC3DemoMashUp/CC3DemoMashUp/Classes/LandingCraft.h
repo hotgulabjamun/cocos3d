@@ -28,8 +28,9 @@
  */
 
 
-#import "CC3Node.h"
-#import "CCActionManager.h"
+#import <Cocos3D/CC3Node.h>
+
+#import <Cocos2DKit/CCActionManager.h>
 
 
 /**

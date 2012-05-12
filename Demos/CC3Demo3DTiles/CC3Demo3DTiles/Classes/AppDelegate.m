@@ -10,7 +10,7 @@
 #import "GameConfig.h"
 #import "MainLayer.h"
 #import "RootViewController.h"
-#import "CC3EAGLView.h"
+#import <Cocos3D/CC3EAGLView.h>
 
 @implementation AppDelegate
 

@@ -30,12 +30,13 @@
  */
 
 #import "TileScene.h"
-#import "CC3Camera.h"
-#import "CC3Light.h"
-#import "CC3ActionInterval.h"
-#import "CC3OpenGLES11Engine.h"
-#import "CCTouchDispatcher.h"
-#import "CGPointExtension.h"
+#import <Cocos3D/CC3Camera.h>
+#import <Cocos3D/CC3Light.h>
+#import <Cocos3D/CC3ActionInterval.h>
+#import <Cocos3D/CC3OpenGLES11Engine.h>
+
+#import <Cocos2DKit/CCTouchDispatcher.h>
+#import <Cocos2DKit/CGPointExtension.h>
 
 #define kTileLightIndex		0
 #define kLampName			@"Lamp"

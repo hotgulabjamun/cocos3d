@@ -30,13 +30,16 @@
  */
 
 #import "CC3PerformanceScene.h"
-#import "CC3Camera.h"
-#import "CC3Light.h"
-#import "CC3ParametricMeshNodes.h"
+
 #import "CC3ModelSampleFactory.h"
-#import "CGPointExtension.h"
-#import "CC3PODResourceNode.h"
-#import "CC3OpenGLES11Engine.h"
+
+#import <Cocos3D/CC3Camera.h>
+#import <Cocos3D/CC3Light.h>
+#import <Cocos3D/CC3ParametricMeshNodes.h>
+#import <Cocos3D/CC3PODResourceNode.h>
+#import <Cocos3D/CC3OpenGLES11Engine.h>
+
+#import <Cocos2DKit/CGPointExtension.h>
 
 // Model names
 #define kNodeGridName			@"NodeGrid"

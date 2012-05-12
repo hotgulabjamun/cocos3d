@@ -33,24 +33,28 @@
  */
 
 #import "CC3DemoMashUpScene.h"
-#import "CC3IOSExtensions.h"
-#import "CC3Billboard.h"
-#import "CC3ActionInterval.h"
-#import "CC3ModelSampleFactory.h"
+
 #import "LandingCraft.h"
-#import "CCLabelTTF.h"
-#import "CGPointExtension.h"
-#import "CCTouchDispatcher.h"
-#import "CCParticleExamples.h"
-#import "CC3OpenGLES11Engine.h"
-#import "CC3PODNode.h"
-#import "CC3PODResourceNode.h"
-#import "CC3BoundingVolumes.h"
-#import "CC3ParametricMeshNodes.h"
-#import "CC3PointParticleSamples.h"
+
 #import "CC3DemoMashUpLayer.h"
-#import "CC3VertexSkinning.h"
-#import "CC3ShadowVolumes.h"
+#import "CC3ModelSampleFactory.h"
+#import "CC3PointParticleSamples.h"
+
+#import <Cocos3D/CC3IOSExtensions.h>
+#import <Cocos3D/CC3Billboard.h>
+#import <Cocos3D/CC3ActionInterval.h>
+#import <Cocos3D/CC3OpenGLES11Engine.h>
+#import <Cocos3D/CC3PODNode.h>
+#import <Cocos3D/CC3PODResourceNode.h>
+#import <Cocos3D/CC3BoundingVolumes.h>
+#import <Cocos3D/CC3ParametricMeshNodes.h>
+#import <Cocos3D/CC3VertexSkinning.h>
+#import <Cocos3D/CC3ShadowVolumes.h>
+
+#import <Cocos2DKit/CCLabelTTF.h>
+#import <Cocos2DKit/CGPointExtension.h>
+#import <Cocos2DKit/CCTouchDispatcher.h>
+#import <Cocos2DKit/CCParticleExamples.h>
 
 
 // File names

@@ -29,7 +29,7 @@
 
 /** @file */	// Doxygen marker
 
-#import "CC3PointParticles.h"
+#import <Cocos3D/CC3PointParticles.h>
 
 
 #pragma mark -

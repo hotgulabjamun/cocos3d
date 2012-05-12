@@ -28,7 +28,8 @@
  */
 
 #import <UIKit/UIKit.h>
-#import "CCNodeController.h"
+
+@class CCNodeController;
 
 @interface CC3PerformanceAppDelegate : NSObject <UIApplicationDelegate> {
 	UIWindow* window;

@@ -28,9 +28,10 @@
  */
 
 
-#import "CC3Layer.h"
 #import "Joystick.h"
 #import "CCNodeAdornments.h"
+
+#import <Cocos3D/CC3Layer.h>
 
 
 /**

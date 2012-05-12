@@ -30,7 +30,7 @@
 /** @file */	// Doxygen marker
 
 #import <Foundation/Foundation.h>
-#import "cocos2d.h"
+
 
 /**
  * Constants that can be used to set the Z-Order of an adornment

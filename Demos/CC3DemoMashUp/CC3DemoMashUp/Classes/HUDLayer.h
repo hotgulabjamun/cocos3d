@@ -28,7 +28,7 @@
  */
 
 
-#import "CC3Layer.h"
+#import <Cocos3D/CC3Layer.h>
 
 /**
  * A sample application-specific CC3Layer subclass that is specialized to

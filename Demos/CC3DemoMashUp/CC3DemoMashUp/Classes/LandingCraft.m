@@ -30,9 +30,12 @@
  */
 
 #import "LandingCraft.h"
-#import "CC3ActionInterval.h"
-#import "CCActionInstant.h"
-#import "CC3IOSExtensions.h"
+
+#import <Cocos3D/CC3ActionInterval.h>
+#import <Cocos3D/CC3IOSExtensions.h>
+
+#import <Cocos2DKit/CCActionInstant.h>
+
 
 #define kDropHeight 700.0
 
