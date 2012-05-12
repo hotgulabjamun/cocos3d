@@ -33,8 +33,8 @@
 #import "CC3Identifiable.h"
 #import "CC3NodeVisitor.h"
 #import "CC3TextureUnit.h"
-#import "CCTexture2D.h"
-#import "CCTextureCache.h"
+#import <Cocos2DKit/CCTexture2D.h>
+#import <Cocos2DKit/CCTextureCache.h>
 
 
 #pragma mark -

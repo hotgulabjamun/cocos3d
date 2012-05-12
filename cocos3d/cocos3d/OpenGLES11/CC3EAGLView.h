@@ -31,8 +31,8 @@
 
 
 #import "CC3OpenGLES11Foundation.h"
-#import "EAGLView.h"
-#import "ES1Renderer.h"
+#import <Cocos2DKit/EAGLView.h>
+#import <Cocos2DKit/ES1Renderer.h>
 
 
 #pragma mark -

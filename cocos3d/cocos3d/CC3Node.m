@@ -36,9 +36,9 @@
 #import "CC3OpenGLES11Foundation.h"
 #import "CC3OpenGLES11Engine.h"
 #import "CC3ParametricMeshNodes.h"
-#import "CCActionManager.h"
-#import "CCLabelTTF.h"
-#import "CGPointExtension.h"
+#import <Cocos2DKit/CCActionManager.h>
+#import <Cocos2DKit/CCLabelTTF.h>
+#import <Cocos2DKit/CGPointExtension.h>
 #import "CC3ShadowVolumes.h"
 #import "CC3CC2Extensions.h"
 #import "CC3IOSExtensions.h"

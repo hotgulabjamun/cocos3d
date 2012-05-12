@@ -32,8 +32,8 @@
 #import "CC3Camera.h"
 #import "CC3BoundingVolumes.h"
 #import "CC3MeshNode.h"
-#import "CCNode.h"
-#import "CCParticleSystemPoint.h"
+#import <Cocos2DKit/CCNode.h>
+#import <Cocos2DKit/CCParticleSystemPoint.h>
 
 
 /**

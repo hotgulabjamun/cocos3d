@@ -1392,7 +1392,7 @@ static bool ReadMaterial(
  @Description		Called multiple times and goes through the interleaved data
 					correcting the endianness.
 *****************************************************************************/
-void PVRTFixInterleavedEndiannessUsingCPODData(unsigned char* pInterleaved, CPODData &data, unsigned int ui32Size)
+static void PVRTFixInterleavedEndiannessUsingCPODData(unsigned char* pInterleaved, CPODData &data, unsigned int ui32Size)
 {
 	if(!data.n)
 		return;
@@ -1443,7 +1443,7 @@ void PVRTFixInterleavedEndiannessUsingCPODData(unsigned char* pInterleaved, CPOD
 	};
 }
 
-void PVRTFixInterleavedEndianness(SPODMesh &s)
+static void PVRTFixInterleavedEndianness(SPODMesh &s)
 {
 	if(!s.pInterleaved || PVRTIsLittleEndian())
 		return;
@@ -4536,7 +4536,7 @@ EPVRTError PVRTModelPODFlattenToWorldSpace(CPVRTModelPOD &in, CPVRTModelPOD &out
 	return PVR_SUCCESS;
 }
 
-bool MergeTexture(const CPVRTModelPOD &src, CPVRTModelPOD &dst, const int &srcTexID, int &dstTexID)
+static bool MergeTexture(const CPVRTModelPOD &src, CPVRTModelPOD &dst, const int &srcTexID, int &dstTexID)
 {
 	if(srcTexID != -1 && srcTexID < (int) src.nNumTexture)
 	{

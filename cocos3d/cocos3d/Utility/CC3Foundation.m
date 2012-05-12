@@ -30,7 +30,7 @@
  */
 
 #import "CC3Foundation.h"
-#import "CGPointExtension.h"
+#import <Cocos2DKit/CGPointExtension.h>
 
 
 NSString* NSStringFromCC3Vectors(CC3Vector* vectors, GLuint vectorCount) {
@@ -100,7 +100,7 @@ CC3BoundingBox CC3BoundingBoxEngulfLocation(CC3BoundingBox bb, CC3Vector aLoc) {
  * within the bounding box, and then tests whether the intersection distance is less
  * than for the specified previous intersection.
  */
-CC3Vector4 CC3RayIntersectionOfBoundingBoxSide(CC3Ray aRay, CC3BoundingBox bb, CC3Vector sideNormal, CC3Vector4 prevHit) {
+static CC3Vector4 CC3RayIntersectionOfBoundingBoxSide(CC3Ray aRay, CC3BoundingBox bb, CC3Vector sideNormal, CC3Vector4 prevHit) {
 	
 	// Determine which corner to use from the direction of the edge plane normal,
 	// create the edge plane, and determine where the ray intersects the edge plane.
@@ -303,7 +303,7 @@ CC3Sphere CC3SphereUnion(CC3Sphere s1, CC3Sphere s2) {
  *
  * Reference: Mathematics for 3D Game Programming and Computer Graphics, 3rd ed. book, by Eric Lengyel
  */ 
-CC3Plane CC3RaySphereIntersectionEquation(CC3Ray aRay, CC3Sphere aSphere) {
+static CC3Plane CC3RaySphereIntersectionEquation(CC3Ray aRay, CC3Sphere aSphere) {
 	// The quadratic intersection equation assumes the sphere is at the origin,
 	// so translate the ray to the sphere's reference frame.
 	CC3Vector rayStart = CC3VectorDifference(aRay.startLocation, aSphere.center);

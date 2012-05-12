@@ -30,7 +30,7 @@
 /** @file */	// Doxygen marker
 
 #import "CC3Texture.h"
-#import "CCProtocols.h"
+#import <Cocos2DKit/CCProtocols.h>
 #import "CC3NodeVisitor.h"
 
 /** Default material color under ambient lighting. */

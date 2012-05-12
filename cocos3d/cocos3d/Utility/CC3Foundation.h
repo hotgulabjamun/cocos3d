@@ -51,8 +51,8 @@
 
 #import "CC3Math.h"
 #import "CC3Logging.h"
-#import "ccTypes.h"
-#import "CCArray.h"
+#import <Cocos2DKit/ccTypes.h>
+#import <Cocos2DKit/CCArray.h>
 
 /**
  * The version of cocos3d, derived from the version format, where each of the

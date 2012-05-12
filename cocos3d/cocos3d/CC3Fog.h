@@ -30,8 +30,8 @@
 /** @file */	// Doxygen marker
 
 #import "CC3Foundation.h"
-#import "CCAction.h"
-#import "CCProtocols.h"
+#import <Cocos2DKit/CCAction.h>
+#import <Cocos2DKit/CCProtocols.h>
 
 
 /**

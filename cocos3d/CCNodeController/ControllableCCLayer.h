@@ -30,7 +30,7 @@
 /** @file */	// Doxygen marker
 
 #import <Foundation/Foundation.h>
-#import "cocos2d.h"
+
 #import "CCNodeController.h"
 
 

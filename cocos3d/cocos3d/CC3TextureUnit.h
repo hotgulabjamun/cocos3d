@@ -31,7 +31,7 @@
 
 #import "CC3OpenGLES11Textures.h"
 #import "CC3NodeVisitor.h"
-#import "CCProtocols.h"
+#import <Cocos2DKit/CCProtocols.h>
 
 /**
  * In a bump-map configuration, indicates how the XYZ coordinates of each per-pixel

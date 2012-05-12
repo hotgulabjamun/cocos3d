@@ -31,7 +31,7 @@
 
 #import "CC3Fog.h"
 #import "CC3OpenGLES11Engine.h"
-#import "CCActionManager.h"
+#import <Cocos2DKit/CCActionManager.h>
 
 
 @interface CC3Fog (TemplateMethods)

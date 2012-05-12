@@ -35,8 +35,8 @@
 #import "CC3OpenGLES11Engine.h"
 #import "CC3ActionInterval.h"
 #import "CC3IOSExtensions.h"
-#import "CGPointExtension.h"
-#import "ccMacros.h"
+#import <Cocos2DKit/CGPointExtension.h>
+#import <Cocos2DKit/ccMacros.h>
 
 
 #pragma mark CC3Camera implementation

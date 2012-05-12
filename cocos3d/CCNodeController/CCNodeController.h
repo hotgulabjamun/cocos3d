@@ -30,7 +30,7 @@
 /** @file */	// Doxygen marker
 
 #import <UIKit/UIKit.h>
-#import "cocos2d.h"
+
 
 #pragma mark ControlledCCNodeProtocol protocol
 

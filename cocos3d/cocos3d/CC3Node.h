@@ -34,8 +34,8 @@
 #import "CC3Rotator.h"
 #import "CC3NodeVisitor.h"
 #import "CC3BoundingVolumes.h"
-#import "CCAction.h"
-#import "CCProtocols.h"
+#import <Cocos2DKit/CCAction.h>
+#import <Cocos2DKit/CCProtocols.h>
 
 @class CC3NodeDrawingVisitor, CC3Scene, CC3Camera, CC3Frustum;
 @class CC3NodeAnimation, CC3NodeDescriptor, CC3WireframeBoundingBoxNode;

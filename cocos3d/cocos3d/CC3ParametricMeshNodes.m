@@ -30,7 +30,7 @@
  */
 
 #import "CC3ParametricMeshNodes.h"
-#import "CGPointExtension.h"
+#import <Cocos2DKit/CGPointExtension.h>
 #import "CC3VertexArrayMesh.h"
 
 

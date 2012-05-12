@@ -42,7 +42,7 @@ extern "C" {
 #import "CC3PODMaterial.h"
 #import "CC3PODVertexSkinning.h"
 #import "CC3CC2Extensions.h"
-#import "CCTextureCache.h"
+#import <Cocos2DKit/CCTextureCache.h>
 
 
 /**

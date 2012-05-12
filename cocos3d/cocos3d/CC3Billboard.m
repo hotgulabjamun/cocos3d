@@ -32,10 +32,9 @@
 #import "CC3Billboard.h"
 #import "CC3OpenGLES11Engine.h"
 #import "CC3VertexArrayMesh.h"
-#import "CCParticleSystemQuad.h"
-#import "CCLabelTTF.h"
-#import "CGPointExtension.h"
-#import "cocos2d.h"
+#import <Cocos2DKit/CCParticleSystemQuad.h>
+#import <Cocos2DKit/CCLabelTTF.h>
+#import <Cocos2DKit/CGPointExtension.h>
 
 
 @interface CC3Node (TemplateMethods)

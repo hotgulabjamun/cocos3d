@@ -31,7 +31,7 @@
 
 #import "CC3NodeSequencer.h"
 #import "CC3MeshNode.h"
-#import "CCTexture2D.h"
+#import <Cocos2DKit/CCTexture2D.h>
 #import "CC3BoundingVolumes.h"
 #import "CC3Scene.h"
 #import "CC3CC2Extensions.h"

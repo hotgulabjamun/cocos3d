@@ -30,11 +30,12 @@
  */
 
 #import "CC3Texture.h"
-#import "CCTextureCache.h"
+
 #import "CC3OpenGLES11Engine.h"
-#import "CCFileUtils.h"
-#import "CCTexturePVR.h"
-#import "cocos2d.h"
+
+#import <Cocos2DKit/CCTextureCache.h>
+#import <Cocos2DKit/CCFileUtils.h>
+#import <Cocos2DKit/CCTexturePVR.h>
 
 
 #pragma mark -

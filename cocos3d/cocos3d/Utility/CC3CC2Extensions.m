@@ -32,9 +32,9 @@
 #import "CC3CC2Extensions.h"
 #import "CC3IOSExtensions.h"
 #import "CC3Logging.h"
-#import "CCDirectorIOS.h"
-#import "CGPointExtension.h"
-#import "CCTouchDispatcher.h"
+#import <Cocos2DKit/CCDirectorIOS.h>
+#import <Cocos2DKit/CGPointExtension.h>
+#import <Cocos2DKit/CCTouchDispatcher.h>
 
 
 #pragma mark -

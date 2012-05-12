@@ -36,6 +36,9 @@
 // because doing so would swap out the actual gl* calls! This implementation
 // file must have access to the actual gl* functions.
 
+#undef GL_LOGGING_ENABLED
+#include "CC3OpenGLES11Intercept.h"
+
 #ifndef kPrintGLDataVertexCount
 #	define kPrintGLDataVertexCount 8
 #endif
@@ -48,7 +51,7 @@
 #	define kMinGLPointerAddress 8192
 #endif
 
-void PrintGLData(GLint elemSize, GLenum dataType, GLsizei stride, GLuint elemCount, const GLvoid* pointer) {
+static void PrintGLData(GLint elemSize, GLenum dataType, GLsizei stride, GLuint elemCount, const GLvoid* pointer) {
 	if (pointer > (GLvoid*)kMinGLPointerAddress && elemCount) {
 		size_t dataTypeSize = GLElementTypeSize(dataType);
 		if (dataTypeSize == 0) {

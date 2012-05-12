@@ -32,11 +32,11 @@
 
 /* Base library of extensions to cocos2d to support cocos3d. */
 
-#import "CCArray.h"
-#import "CCNode.h"
-#import "CCLayer.h"
-#import "CCMenu.h"
-#import "CCDirector.h"
+#import <Cocos2DKit/CCArray.h>
+#import <Cocos2DKit/CCNode.h>
+#import <Cocos2DKit/CCLayer.h>
+#import <Cocos2DKit/CCMenu.h>
+#import <Cocos2DKit/CCDirector.h>
 
 
 #pragma mark -

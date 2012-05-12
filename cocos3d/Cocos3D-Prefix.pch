@@ -1,0 +1,9 @@
+//
+// Prefix header for all source files of the 'Cocos3D' target in the 'Cocos3D' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+    #import <OpenGLES/ES1/gl.h>
+    #import <Cocos2DKit/Cocos2DKit.h>
+#endif

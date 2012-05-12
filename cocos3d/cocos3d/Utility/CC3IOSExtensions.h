@@ -34,7 +34,7 @@
 
 #import <UIKit/UIGestureRecognizer.h>
 #import <UIKit/UIColor.h>
-#import "ccTypes.h"
+#import <Cocos2DKit/ccTypes.h>
 
 #pragma mark -
 #pragma mark NSObject extensions

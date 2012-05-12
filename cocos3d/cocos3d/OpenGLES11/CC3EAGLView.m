@@ -31,8 +31,7 @@
 
 #import "CC3EAGLView.h"
 #import "CC3Logging.h"
-#import "CCConfiguration.h"
-#import "cocos2d.h"
+#import <Cocos2DKit/CCConfiguration.h>
 
 
 #pragma mark -

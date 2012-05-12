@@ -31,7 +31,7 @@
 
 
 #import "CC3Node.h"
-#import "CCActionEase.h"
+#import <Cocos2DKit/CCActionEase.h>
 
 
 #pragma mark -
