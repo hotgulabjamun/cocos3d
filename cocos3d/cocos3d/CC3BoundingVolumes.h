@@ -30,7 +30,7 @@
 /** @file */	// Doxygen marker
 
 
-#import "CC3Foundation.h"
+#import <Cocos3D/CC3Foundation.h>
 
 @class CC3Node, CC3Frustum;
 

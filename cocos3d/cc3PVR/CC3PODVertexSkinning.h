@@ -30,10 +30,9 @@
 
 /** @file */	// Doxygen marker
 
-#import "CC3VertexSkinning.h"
-#import "CC3VertexArraysPODExtensions.h"
-#import "CC3PVRFoundation.h"
-#import "CC3PVRTModelPOD.h"
+#import <Cocos3D/CC3VertexSkinning.h>
+#import <Cocos3D/CC3VertexArraysPODExtensions.h>
+#import <Cocos3D/CC3PVRFoundation.h>
 
 
 #pragma mark -

@@ -30,8 +30,8 @@
 /** @file */	// Doxygen marker
 
 
-#import "CC3Material.h"
-#import "CC3IdentifiablePODExtensions.h"
+#import <Cocos3D/CC3Material.h>
+#import <Cocos3D/CC3IdentifiablePODExtensions.h>
 
 
 /** A CC3Material whose content originates from POD resource data. */

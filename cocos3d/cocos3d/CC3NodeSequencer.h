@@ -29,7 +29,7 @@
 
 /** @file */	// Doxygen marker
 
-#import "CC3MeshNode.h"
+#import <Cocos3D/CC3MeshNode.h>
 
 @class CC3Scene, CC3NodeSequencerVisitor;
 

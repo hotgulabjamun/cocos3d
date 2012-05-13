@@ -29,9 +29,9 @@
 
 /** @file */	// Doxygen marker
 
-#import "CC3Texture.h"
+#import <Cocos3D/CC3Texture.h>
 #import <Cocos2DKit/CCProtocols.h>
-#import "CC3NodeVisitor.h"
+#import <Cocos3D/CC3NodeVisitor.h>
 
 /** Default material color under ambient lighting. */
 static const ccColor4F kCC3DefaultMaterialColorAmbient = { 0.2, 0.2, 0.2, 1.0 };

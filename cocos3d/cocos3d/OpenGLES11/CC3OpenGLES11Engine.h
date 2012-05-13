@@ -29,16 +29,16 @@
 
 /** @file */	// Doxygen marker
 
-#import "CC3OpenGLES11Platform.h"
-#import "CC3OpenGLES11Capabilities.h"
-#import "CC3OpenGLES11Materials.h"
-#import "CC3OpenGLES11Textures.h"
-#import "CC3OpenGLES11Lighting.h"
-#import "CC3OpenGLES11Matrices.h"
-#import "CC3OpenGLES11VertexArrays.h"
-#import "CC3OpenGLES11State.h"
-#import "CC3OpenGLES11Fog.h"
-#import "CC3OpenGLES11Hints.h"
+#import <Cocos3D/CC3OpenGLES11Platform.h>
+#import <Cocos3D/CC3OpenGLES11Capabilities.h>
+#import <Cocos3D/CC3OpenGLES11Materials.h>
+#import <Cocos3D/CC3OpenGLES11Textures.h>
+#import <Cocos3D/CC3OpenGLES11Lighting.h>
+#import <Cocos3D/CC3OpenGLES11Matrices.h>
+#import <Cocos3D/CC3OpenGLES11VertexArrays.h>
+#import <Cocos3D/CC3OpenGLES11State.h>
+#import <Cocos3D/CC3OpenGLES11Fog.h>
+#import <Cocos3D/CC3OpenGLES11Hints.h>
 
 
 /**

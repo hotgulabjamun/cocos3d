@@ -29,7 +29,7 @@
 
 /** @file */	// Doxygen marker
 
-#import "CC3VertexArrayMesh.h"
+#import <Cocos3D/CC3VertexArrayMesh.h>
 
 
 #pragma mark -

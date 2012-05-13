@@ -30,7 +30,7 @@
 /** @file */	// Doxygen marker
 
 
-#import "CC3OpenGLES11Capabilities.h"
+#import <Cocos3D/CC3OpenGLES11Capabilities.h>
 
 
 #pragma mark -

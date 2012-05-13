@@ -30,12 +30,12 @@
 /** @file */	// Doxygen marker
 
 
-#import "CC3Resource.h"
-#import "CC3PVRFoundation.h"
-#import "CC3Camera.h"
-#import "CC3MeshNode.h"
-#import "CC3Light.h"
-#import "CC3Material.h"
+#import <Cocos3D/CC3Resource.h>
+#import <Cocos3D/CC3PVRFoundation.h>
+#import <Cocos3D/CC3Camera.h>
+#import <Cocos3D/CC3MeshNode.h>
+#import <Cocos3D/CC3Light.h>
+#import <Cocos3D/CC3Material.h>
 
 
 /**

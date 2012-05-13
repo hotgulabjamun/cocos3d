@@ -30,7 +30,7 @@
 /** @file */	// Doxygen marker
 
 
-#import "CC3OpenGLES11Foundation.h"
+#import <Cocos3D/CC3OpenGLES11Foundation.h>
 #import <Cocos2DKit/EAGLView.h>
 #import <Cocos2DKit/ES1Renderer.h>
 

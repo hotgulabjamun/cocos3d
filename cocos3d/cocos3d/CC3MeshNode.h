@@ -29,9 +29,9 @@
 
 /** @file */	// Doxygen marker
 
-#import "CC3Node.h"
-#import "CC3Mesh.h"
-#import "CC3Material.h"
+#import <Cocos3D/CC3Node.h>
+#import <Cocos3D/CC3Mesh.h>
+#import <Cocos3D/CC3Material.h>
 
 
 #pragma mark -

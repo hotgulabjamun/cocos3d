@@ -30,9 +30,9 @@
 /** @file */	// Doxygen marker
 
 
-#import "CC3ResourceNode.h"
-#import "CC3PODResource.h"
-#import "CC3Scene.h"
+#import <Cocos3D/CC3ResourceNode.h>
+#import <Cocos3D/CC3PODResource.h>
+#import <Cocos3D/CC3Scene.h>
 
 
 /** A CC3ResourceNode that that wraps a CC3PODResource PVR POD resource. */

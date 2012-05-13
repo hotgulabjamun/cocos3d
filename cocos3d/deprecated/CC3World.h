@@ -29,7 +29,7 @@
 
 /** @file */	// Doxygen marker
 
-#import "CC3Scene.h"
+#import <Cocos3D/CC3Scene.h>
 #import	"CC3TargettingNode.h"	// Imported here for legacy apps that used it
 								// via implicit import from lights and cameras.
 

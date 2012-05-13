@@ -29,7 +29,7 @@
 
 /** @file */	// Doxygen marker
 
-#import "CC3GLMatrix.h"
+#import <Cocos3D/CC3GLMatrix.h>
 
 @class CC3Node;
 

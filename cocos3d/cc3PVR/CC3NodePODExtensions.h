@@ -30,9 +30,9 @@
 /** @file */	// Doxygen marker
 
 
-#import "CC3Node.h"
-#import "CC3IdentifiablePODExtensions.h"
-#import "CC3NodeAnimation.h"
+#import <Cocos3D/CC3Node.h>
+#import <Cocos3D/CC3IdentifiablePODExtensions.h>
+#import <Cocos3D/CC3NodeAnimation.h>
 
 @class CC3PODNodeAnimation;
 

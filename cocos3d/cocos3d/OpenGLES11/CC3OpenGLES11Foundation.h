@@ -32,7 +32,7 @@
 
 #import <OpenGLES/ES1/gl.h>
 #import <OpenGLES/ES1/glext.h>
-#import "CC3OpenGLES11Intercept.h"
+#import <Cocos3D/CC3OpenGLES11Intercept.h>
 
 
 #pragma mark -

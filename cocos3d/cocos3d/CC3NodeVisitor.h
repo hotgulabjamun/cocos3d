@@ -30,8 +30,8 @@
 /** @file */	// Doxygen marker
 
 
-#import "CC3GLMatrix.h"
-#import "CC3PerformanceStatistics.h"
+#import <Cocos3D/CC3GLMatrix.h>
+#import <Cocos3D/CC3PerformanceStatistics.h>
 
 @class CC3NodeSequencer;
 

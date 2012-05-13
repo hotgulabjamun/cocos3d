@@ -31,7 +31,7 @@
 
 #import <Foundation/Foundation.h>
 
-#import "CCNodeController.h"
+#import <Cocos3D/CCNodeController.h>
 
 
 /**

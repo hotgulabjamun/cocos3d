@@ -31,6 +31,7 @@
  */
 
 #import "CC3PODVertexSkinning.h"
+#import "CC3PVRTModelPOD.h"
 #import "CC3PODMesh.h"
 #import "CC3VertexSkinning.h"
 #import "CC3PVRTModelPOD.h"

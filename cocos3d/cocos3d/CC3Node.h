@@ -29,11 +29,11 @@
 
 /** @file */	// Doxygen marker
 
-#import "CC3Identifiable.h"
-#import "CC3GLMatrix.h"
-#import "CC3Rotator.h"
-#import "CC3NodeVisitor.h"
-#import "CC3BoundingVolumes.h"
+#import <Cocos3D/CC3Identifiable.h>
+#import <Cocos3D/CC3GLMatrix.h>
+#import <Cocos3D/CC3Rotator.h>
+#import <Cocos3D/CC3NodeVisitor.h>
+#import <Cocos3D/CC3BoundingVolumes.h>
 #import <Cocos2DKit/CCAction.h>
 #import <Cocos2DKit/CCProtocols.h>
 

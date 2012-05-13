@@ -31,8 +31,8 @@
 
 
 #import <Cocos2DKit/ccTypes.h>
-#import "CC3Foundation.h"
-#import "CC3OpenGLES11Foundation.h"
+#import <Cocos3D/CC3Foundation.h>
+#import <Cocos3D/CC3OpenGLES11Foundation.h>
 
 @class CC3OpenGLES11Engine;
 

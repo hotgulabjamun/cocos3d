@@ -31,9 +31,9 @@
 /** @file */	// Doxygen marker
 
 
-#import "CC3MeshNode.h"
-#import "CC3VertexArrayMesh.h"
-#import "CC3VertexArrays.h"
+#import <Cocos3D/CC3MeshNode.h>
+#import <Cocos3D/CC3VertexArrayMesh.h>
+#import <Cocos3D/CC3VertexArrays.h>
 
 @class CC3SkinMesh, CC3Bone, CC3SkinSection, CC3SoftBodyNode, CC3DeformedFaceArray;
 

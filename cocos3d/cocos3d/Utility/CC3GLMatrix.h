@@ -29,7 +29,7 @@
 
 /** @file */	// Doxygen marker
 
-#import "CC3MatrixMath.h"
+#import <Cocos3D/CC3MatrixMath.h>
 
 /**
  * Enumeration of the options for the starting vector

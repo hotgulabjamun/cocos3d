@@ -30,7 +30,7 @@
 /** @file */	// Doxygen marker
 
 
-#import "CC3Texture.h"
+#import <Cocos3D/CC3Texture.h>
 
 
 /**

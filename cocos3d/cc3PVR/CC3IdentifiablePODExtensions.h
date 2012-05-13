@@ -30,8 +30,8 @@
 /** @file */	// Doxygen marker
 
 
-#import "CC3Identifiable.h"
-#import "CC3PODResource.h"
+#import <Cocos3D/CC3Identifiable.h>
+#import <Cocos3D/CC3PODResource.h>
 
 
 /** Extensions to CC3Identifiable to support PVR POD data. */

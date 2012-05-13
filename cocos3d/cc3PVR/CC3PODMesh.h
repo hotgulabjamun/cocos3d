@@ -30,8 +30,8 @@
 /** @file */	// Doxygen marker
 
 
-#import "CC3VertexArrayMesh.h"
-#import "CC3IdentifiablePODExtensions.h"
+#import <Cocos3D/CC3VertexArrayMesh.h>
+#import <Cocos3D/CC3IdentifiablePODExtensions.h>
 
 
 #pragma mark -

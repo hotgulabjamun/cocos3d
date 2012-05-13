@@ -6,4 +6,5 @@
     #import <Foundation/Foundation.h>
     #import <OpenGLES/ES1/gl.h>
     #import <Cocos2DKit/Cocos2DKit.h>
+    #import <Cocos3D/Cocos3D.h>
 #endif

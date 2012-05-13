@@ -29,10 +29,12 @@
 
 /** @file */	// Doxygen marker
 
+#import <Cocos3D/CC3Foundation.h>
 
-#import "CC3Node.h"
 #import <Cocos2DKit/CCActionEase.h>
 
+
+@class CC3Node;
 
 #pragma mark -
 #pragma mark CCActionInterval

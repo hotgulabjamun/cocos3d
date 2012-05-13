@@ -30,9 +30,9 @@
 /** @file */	// Doxygen marker
 
 
-#import "CC3Identifiable.h"
-#import "CC3NodeVisitor.h"
-#import "CC3TextureUnit.h"
+#import <Cocos3D/CC3Identifiable.h>
+#import <Cocos3D/CC3NodeVisitor.h>
+#import <Cocos3D/CC3TextureUnit.h>
 #import <Cocos2DKit/CCTexture2D.h>
 #import <Cocos2DKit/CCTextureCache.h>
 

@@ -30,8 +30,12 @@
  */
 
 #import "CC3Billboard.h"
+
 #import "CC3OpenGLES11Engine.h"
 #import "CC3VertexArrayMesh.h"
+#import "CC3BoundingVolumes.h"
+#import "CC3Camera.h"
+
 #import <Cocos2DKit/CCParticleSystemQuad.h>
 #import <Cocos2DKit/CCLabelTTF.h>
 #import <Cocos2DKit/CGPointExtension.h>

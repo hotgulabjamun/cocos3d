@@ -49,8 +49,9 @@
 
 /* Base library of definitions and functions for operating in a 3D scene. */
 
-#import "CC3Math.h"
-#import "CC3Logging.h"
+#import <Cocos3D/CC3Math.h>
+#import <Cocos3D/CC3Logging.h>
+
 #import <Cocos2DKit/ccTypes.h>
 #import <Cocos2DKit/CCArray.h>
 

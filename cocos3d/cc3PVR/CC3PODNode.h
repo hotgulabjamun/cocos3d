@@ -30,8 +30,8 @@
 /** @file */	// Doxygen marker
 
 
-#import "CC3Node.h"
-#import "CC3NodePODExtensions.h"
+#import <Cocos3D/CC3Node.h>
+#import <Cocos3D/CC3NodePODExtensions.h>
 
 
 /**

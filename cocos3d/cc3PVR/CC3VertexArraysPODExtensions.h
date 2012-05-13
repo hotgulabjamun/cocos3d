@@ -30,8 +30,8 @@
 /** @file */	// Doxygen marker
 
 
-#import "CC3VertexArrays.h"
-#import "CC3PVRFoundation.h"
+#import <Cocos3D/CC3VertexArrays.h>
+#import <Cocos3D/CC3PVRFoundation.h>
 
 
 #pragma mark CC3VertexArray PVRPOD extensions

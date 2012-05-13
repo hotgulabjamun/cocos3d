@@ -29,9 +29,9 @@
 
 /** @file */	// Doxygen marker
 
-#import "CC3Node.h"
-#import "CC3OpenGLES11Lighting.h"
-#import "CC3MeshNode.h"
+#import <Cocos3D/CC3Node.h>
+#import <Cocos3D/CC3OpenGLES11Lighting.h>
+#import <Cocos3D/CC3MeshNode.h>
 
 @protocol CC3ShadowProtocol;
 @class CC3ShadowCastingVolume, CC3CameraShadowVolume, CC3StencilledShadowPainterNode;

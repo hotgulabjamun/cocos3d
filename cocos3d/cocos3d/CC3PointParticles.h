@@ -29,9 +29,9 @@
 
 /** @file */	// Doxygen marker
 
-#import "CC3MeshNode.h"
-#import "CC3VertexArrayMesh.h"
-#import "CC3Camera.h"
+#import <Cocos3D/CC3MeshNode.h>
+#import <Cocos3D/CC3VertexArrayMesh.h>
+#import <Cocos3D/CC3Camera.h>
 
 @class CC3PointParticle, CC3PointParticleMesh;
 

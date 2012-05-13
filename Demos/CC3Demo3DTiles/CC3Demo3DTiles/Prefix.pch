@@ -11,6 +11,6 @@
 #ifdef __OBJC__
     #import <UIKit/UIKit.h>
     #import <Foundation/Foundation.h>
-    #import <Cocos3D/Cocos3D.h>
     #import <Cocos2DKit/Cocos2DKit.h>
+    #import <Cocos3D/Cocos3D.h>
 #endif

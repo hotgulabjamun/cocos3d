@@ -30,9 +30,9 @@
 
 /** @file */	// Doxygen marker
 
-#import "CC3Identifiable.h"
-#import "CC3Material.h"
-#import "CC3NodeVisitor.h"
+#import <Cocos3D/CC3Identifiable.h>
+#import <Cocos3D/CC3Material.h>
+#import <Cocos3D/CC3NodeVisitor.h>
 
 
 #pragma mark CC3VertexArray

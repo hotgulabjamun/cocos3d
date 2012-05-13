@@ -30,9 +30,9 @@
 /** @file */	// Doxygen marker
 
 
-#import "CC3VertexSkinning.h"
-#import "CC3Light.h"
-#import "CC3Billboard.h"
+#import <Cocos3D/CC3VertexSkinning.h>
+#import <Cocos3D/CC3Light.h>
+#import <Cocos3D/CC3Billboard.h>
 
 /** The suggested default shadow volume vertex offset factor. */
 static const GLfloat kCC3DefaultShadowVolumeVertexOffsetFactor = 0.001;

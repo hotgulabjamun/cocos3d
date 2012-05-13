@@ -29,7 +29,7 @@
 
 /** @file */	// Doxygen marker
 
-#import "CC3Foundation.h"
+#import <Cocos3D/CC3Foundation.h>
 
 /**
  * This is a base subclass for any class that uses tags or names to identify individual instances.

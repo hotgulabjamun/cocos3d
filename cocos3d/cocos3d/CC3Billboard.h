@@ -29,13 +29,12 @@
 
 /** @file */	// Doxygen marker
 
-#import "CC3Camera.h"
-#import "CC3BoundingVolumes.h"
-#import "CC3MeshNode.h"
+#import <Cocos3D/CC3MeshNode.h>
+
 #import <Cocos2DKit/CCNode.h>
 #import <Cocos2DKit/CCParticleSystemPoint.h>
 
-
+@class CC3Camera, CC3MeshNode;
 /**
  * This CC3Node displays a 2D cocos2d CCNode as part of the 3D scene.
  *

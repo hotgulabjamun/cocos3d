@@ -29,8 +29,8 @@
 
 /** @file */	// Doxygen marker
 
-#import "CC3OpenGLES11Textures.h"
-#import "CC3NodeVisitor.h"
+#import <Cocos3D/CC3OpenGLES11Textures.h>
+#import <Cocos3D/CC3NodeVisitor.h>
 #import <Cocos2DKit/CCProtocols.h>
 
 /**

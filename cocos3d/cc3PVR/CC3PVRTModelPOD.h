@@ -32,6 +32,6 @@
 
 /** PVRT C++ header, slightly adjusted for compatibility with Objective-C */
 
-#import "PVRTModelPOD.h"
+#import <Cocos3D/PVRTModelPOD.h>
 
 #undef BOOL						// resolve conflict with PVRT C++ definition of BOOL

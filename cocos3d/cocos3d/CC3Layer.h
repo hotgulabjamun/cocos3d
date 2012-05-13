@@ -29,8 +29,8 @@
 
 /** @file */	// Doxygen marker
 
-#import "ControllableCCLayer.h"
-#import "CC3Scene.h"
+#import <Cocos3D/ControllableCCLayer.h>
+#import <Cocos3D/CC3Scene.h>
 
 /**
  * CC3Layer is a cocos2d CCLayer that supports full 3D rendering in combination with normal
